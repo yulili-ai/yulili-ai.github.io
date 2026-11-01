@@ -1,0 +1,13 @@
+{
+  "name": "yulili-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node hero/build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.11",
+    "typescript": "^5.9.3"
+  }
+}
